@@ -1,6 +1,6 @@
 streamlit
 opencv-python
-mediapipe
 moviepy
-openai-whisper
 ffmpeg-python
+torch
+git+https://github.com/openai/whisper.git
