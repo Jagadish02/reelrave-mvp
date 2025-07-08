@@ -1,4 +1,14 @@
-streamlit==1.46.1
-opencv-python
-moviepy
-git+https://github.com/openai/whisper.git@c0d2f624c09dc18e709e37c2ad90c039a4eb72a2
+streamlit>=1.33.0
+opencv-python>=4.9.0.80
+moviepy>=1.0.3
+ffmpeg-python>=0.2.0
+python-dotenv>=1.0.1
+openai-whisper @ git+https://github.com/openai/whisper.git
+tqdm>=4.66.1
+librosa>=0.10.1
+soundfile>=0.12.1
+Pillow>=10.0.0              # for image ops (e.g. thumbnails)
+fontconfig                  # required for custom fonts in some systems
+torch
+imageio
+imageio-ffmpeg
